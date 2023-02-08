@@ -1,0 +1,40 @@
+@import "./colors";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+html {
+  background: $white;
+  color: $black;
+  height: 100%;
+  width: 100%;
+
+  body {
+    font-family: Helvetica, sans-serif;
+    font-weight: 400;
+    height: 100%;
+    width: 100%;
+
+    #root,
+    .App {
+      display: flex;
+      height: 100%;
+      width: 100%;
+
+      .application-wrapper {
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+        position: relative;
+        width: 100%;
+        position: relative;
+
+        // remove all link styles
+        a,button {
+          text-decoration: none;
+          cursor: pointer;
+        }
+
+
+      }
+    }
+  }
+}
