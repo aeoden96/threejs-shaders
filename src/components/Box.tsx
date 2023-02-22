@@ -16,7 +16,7 @@ function Box(props: BoxProps) {
 
   useFrame((state, delta) => {
       if(ref.current) {
-      ref.current.rotation.x += delta;
+      // ref.current.rotation.x += delta;
       }
     }
     )
